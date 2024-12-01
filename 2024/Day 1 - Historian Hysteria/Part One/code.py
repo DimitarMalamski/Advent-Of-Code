@@ -1,7 +1,7 @@
 list_one = []
 list_two = []
 
-with open('Day 1 - Historian Hysteria/input.txt', 'r') as file:
+with open('Day 1 - Historian Hysteria/Part One/input.txt', 'r') as file:
    for line in file:
       splited = line.strip().split("   ")
       list_one.append(int(splited[0]))
